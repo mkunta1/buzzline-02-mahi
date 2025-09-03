@@ -42,7 +42,7 @@ Open your project in VS Code and use the commands for your operating system to:
 
 ### Windows
 
-Open PowerShell terminal in VS Code (Terminal / New Terminal / PowerShell).
+Open **PowerShell** terminal in VS Code (Terminal / New Terminal / PowerShell).
 
 ```powershell
 py -3.11 -m venv .venv
@@ -70,7 +70,7 @@ Producers generate streaming data for our topics.
 In VS Code, open a terminal.
 Use the commands below to activate .venv, and start the producer.
 
-Windows:
+Windows **PowerShell**:
 
 ```shell
 .venv\Scripts\activate
@@ -91,7 +91,7 @@ Consumers process data from topics or logs in real time.
 In VS Code, open a NEW terminal in your root project folder.
 Use the commands below to activate .venv, and start the consumer.
 
-Windows:
+Windows **PowerShell**:
 
 ```shell
 .venv\Scripts\activate
@@ -109,9 +109,9 @@ python3 -m consumers.kafka_consumer_case
 
 When resuming work on this project:
 
-1. Open the folder in VS Code.
-2. Start the Kafka service.
-3. Activate your local project virtual environment (.venv).
+1. Open the project folder in VS Code.
+2. Start the Kafka service (in WSL if Windows).
+3. Activate your local project virtual environment (.venv) in your OS-specific terminal. 
 
 ## Save Space
 
