@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# buzzline-02-case
+
+# buzzline-02-Mahitha
 
 Streaming data is often too big for any one machine. Apache Kafka is a popular streaming platform that uses publish-subscribe patterns:
 
