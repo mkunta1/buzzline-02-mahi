@@ -21,7 +21,7 @@ def get_message_interval() -> int:
     return interval
 
 PATIENT_NAMES = [
-    "Aman Ruth"
+    "Aman Ruth",
     "John Doe",
     "Jane Smith",
     "Alex Kim",
