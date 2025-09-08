@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 # requirements.txt - list all the packages the project needs
-# Ingnore hashes (#) - they are just used to create comments.
+# Ignore hashes (#) - they are just used to create comments.
 # Hashes will be ignored when we install packages using this file. 
 
 # ======================================================
 # STEP A - CREATE A LOCAL PROJECT VIRTUAL ENV (.venv)
 # ======================================================
 
-# Create your local project virtual environment
+# Create your local project virtual environmet
 # This step ensures you have an isolated Python environment for your project.
 # This is typically just done once at the beginning of a project.
 # If it gets messed up, we can delete .venv and recreate it at any time. 
@@ -103,7 +102,7 @@ python-dotenv
 # Kafka Python client (lightweight, ~1 MB)
 # Supports Kafka 3.5+ with KRaft mode (no ZooKeeper required)
 kafka-python-ng
-=======
+
 # requirements.txt - list all the packages the project needs
 # Ignore hashes (#) - they are just used to create comments.
 # Hashes will be ignored when we install packages using this file. 
@@ -193,4 +192,9 @@ loguru
 
 # Environment variables management
 python-dotenv
->>>>>>> 12c6818 (included kafka_producer_mahi)
+
+# ======================================================
+# KAFKA STREAMING MESSAGE BROKER INTEGRATION
+# ======================================================
+
+kafka-python-ng

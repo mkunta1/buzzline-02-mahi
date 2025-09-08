@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Logger Setup Script
 File: utils/utils_logger.py
@@ -114,7 +114,7 @@ def main() -> None:
 # Conditional execution block that calls main() only when this file is executed directly
 if __name__ == "__main__":
     main()
-=======
+
 """
 Logger Setup Script
 File: utils/utils_logger.py
@@ -186,4 +186,4 @@ def main() -> None:
 # Conditional execution block that calls main() only when this file is executed directly
 if __name__ == "__main__":
     main()
->>>>>>> 12c6818 (included kafka_producer_mahi)
+
